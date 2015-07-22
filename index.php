@@ -49,8 +49,15 @@
 			// echo $content;
 			
 			$temp_content = explode( '<div id="metal1a">' , $content );
-			$metal_sched = explode( '<table id="event"' , $temp_content[1] );
-			echo '<table id="event" ' . $metal_sched[2];
+			$metal_sched_table = explode( '<table id="event"' , $temp_content[1] );
+			echo '<table id="event" ' . $metal_sched_table[2];
+
+			// Break down metal schedule dungeons and times in rows
+			$metal_sched_row = explode( '<tr>' , $metal_sched_table[2]);
+
+			// Grab image number to get dungeon type
+			// var_dump( $metal_sched_row );
+			echo $metal_sched_row[2];
 		?>
 
 	</div>
