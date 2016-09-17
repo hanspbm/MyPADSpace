@@ -1,0 +1,10 @@
+Find this code on each td tags - redirect.asp?d=67	
+Last number tells what kind of dungeon it is
+
+29 	= Metal Dragon Hunting (Dark)
+67 	= Hunt Gold Dragons
+217 = Starry View Lane
+252 = Hunt for Tamadra
+303 = Tamadra spotted?
+376 = Descended Carnival
+416 = Training Path
