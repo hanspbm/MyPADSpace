@@ -5,7 +5,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-	<script src="jquery-1.11.2.js"></script>
+	<script src="scripts/js/jquery-1.11.2.js"></script>
 
     <script>
 		$(document).ready(function() {
